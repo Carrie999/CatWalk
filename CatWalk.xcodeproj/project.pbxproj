@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7608F6C32CC3D86F0002DC5E /* AboutUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608F6C22CC3D86F0002DC5E /* AboutUIView.swift */; };
+		7608F6C72CC5E6010002DC5E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7608F6C62CC5E6010002DC5E /* Launch Screen.storyboard */; };
+		7610CBE02CB8BCDA00BEA6ED /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610CBDF2CB8BCDA00BEA6ED /* DataView.swift */; };
+		7610CBE32CB8C9E700BEA6ED /* DataAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610CBE22CB8C9E700BEA6ED /* DataAccessView.swift */; };
+		7610CBEC2CBE490000BEA6ED /* ProSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610CBEB2CBE490000BEA6ED /* ProSwiftUIView.swift */; };
+		7610CBEE2CBE494400BEA6ED /* storeKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610CBED2CBE494400BEA6ED /* storeKitManager.swift */; };
+		7610CBF12CBE4D4500BEA6ED /* propertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7610CBF02CBE4D4500BEA6ED /* propertyList.plist */; };
+		7610CBF52CC0A16300BEA6ED /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610CBF42CC0A16300BEA6ED /* OnboardingPageView.swift */; };
+		7610CBF72CC0C9EF00BEA6ED /* notificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610CBF62CC0C9EF00BEA6ED /* notificationView.swift */; };
+		762654542CC35A9100CE0B94 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 762654532CC35A9100CE0B94 /* Localizable.xcstrings */; };
+		762654562CC35B0B00CE0B94 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 762654552CC35B0B00CE0B94 /* InfoPlist.xcstrings */; };
 		76B3FD482CA54E780003F7FD /* CatWalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3FD472CA54E780003F7FD /* CatWalkApp.swift */; };
 		76B3FD4A2CA54E780003F7FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3FD492CA54E780003F7FD /* ContentView.swift */; };
 		76B3FD4C2CA54E790003F7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B3FD4B2CA54E790003F7FD /* Assets.xcassets */; };
 		76B3FD4F2CA54E790003F7FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B3FD4E2CA54E790003F7FD /* Preview Assets.xcassets */; };
+		76B3FD5A2CA64B860003F7FD /* TujianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3FD592CA64B860003F7FD /* TujianView.swift */; };
+		76D7089F2CEC1E8C00CDF7C0 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76D7089E2CEC1E8C00CDF7C0 /* success.mp3 */; };
+		76D708A12CEC1E9000CDF7C0 /* meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76D708A02CEC1E9000CDF7C0 /* meow.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7608F6C22CC3D86F0002DC5E /* AboutUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUIView.swift; sourceTree = "<group>"; };
+		7608F6C62CC5E6010002DC5E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7610CBDF2CB8BCDA00BEA6ED /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		7610CBE12CB8C82100BEA6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7610CBE22CB8C9E700BEA6ED /* DataAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessView.swift; sourceTree = "<group>"; };
+		7610CBE42CB8DDEE00BEA6ED /* CatWalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CatWalk.entitlements; sourceTree = "<group>"; };
+		7610CBEB2CBE490000BEA6ED /* ProSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSwiftUIView.swift; sourceTree = "<group>"; };
+		7610CBED2CBE494400BEA6ED /* storeKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeKitManager.swift; sourceTree = "<group>"; };
+		7610CBEF2CBE4AF700BEA6ED /* catswalk.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = catswalk.storekit; sourceTree = "<group>"; };
+		7610CBF02CBE4D4500BEA6ED /* propertyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = propertyList.plist; sourceTree = "<group>"; };
+		7610CBF42CC0A16300BEA6ED /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		7610CBF62CC0C9EF00BEA6ED /* notificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationView.swift; sourceTree = "<group>"; };
+		762654532CC35A9100CE0B94 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		762654552CC35B0B00CE0B94 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		76B3FD442CA54E780003F7FD /* CatWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B3FD472CA54E780003F7FD /* CatWalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWalkApp.swift; sourceTree = "<group>"; };
 		76B3FD492CA54E780003F7FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76B3FD4B2CA54E790003F7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76B3FD4E2CA54E790003F7FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76B3FD592CA64B860003F7FD /* TujianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TujianView.swift; sourceTree = "<group>"; };
+		76D7089E2CEC1E8C00CDF7C0 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = success.mp3; path = ../../success.mp3; sourceTree = "<group>"; };
+		76D708A02CEC1E9000CDF7C0 /* meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meow.mp3; path = ../../meow.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +66,10 @@
 		76B3FD3B2CA54E780003F7FD = {
 			isa = PBXGroup;
 			children = (
+				762654552CC35B0B00CE0B94 /* InfoPlist.xcstrings */,
+				76D7089E2CEC1E8C00CDF7C0 /* success.mp3 */,
+				76D708A02CEC1E9000CDF7C0 /* meow.mp3 */,
+				762654532CC35A9100CE0B94 /* Localizable.xcstrings */,
 				76B3FD462CA54E780003F7FD /* CatWalk */,
 				76B3FD452CA54E780003F7FD /* Products */,
 			);
@@ -51,10 +86,23 @@
 		76B3FD462CA54E780003F7FD /* CatWalk */ = {
 			isa = PBXGroup;
 			children = (
+				7610CBE12CB8C82100BEA6ED /* Info.plist */,
+				7610CBE42CB8DDEE00BEA6ED /* CatWalk.entitlements */,
+				7610CBEF2CBE4AF700BEA6ED /* catswalk.storekit */,
+				7610CBF02CBE4D4500BEA6ED /* propertyList.plist */,
 				76B3FD472CA54E780003F7FD /* CatWalkApp.swift */,
+				7610CBED2CBE494400BEA6ED /* storeKitManager.swift */,
 				76B3FD492CA54E780003F7FD /* ContentView.swift */,
+				7608F6C22CC3D86F0002DC5E /* AboutUIView.swift */,
+				7610CBDF2CB8BCDA00BEA6ED /* DataView.swift */,
+				76B3FD592CA64B860003F7FD /* TujianView.swift */,
+				7610CBF42CC0A16300BEA6ED /* OnboardingPageView.swift */,
+				7610CBF62CC0C9EF00BEA6ED /* notificationView.swift */,
+				7610CBEB2CBE490000BEA6ED /* ProSwiftUIView.swift */,
+				7610CBE22CB8C9E700BEA6ED /* DataAccessView.swift */,
 				76B3FD4B2CA54E790003F7FD /* Assets.xcassets */,
 				76B3FD4D2CA54E790003F7FD /* Preview Content */,
+				7608F6C62CC5E6010002DC5E /* Launch Screen.storyboard */,
 			);
 			path = CatWalk;
 			sourceTree = "<group>";
@@ -83,6 +131,8 @@
 			dependencies = (
 			);
 			name = CatWalk;
+			packageProductDependencies = (
+			);
 			productName = CatWalk;
 			productReference = 76B3FD442CA54E780003F7FD /* CatWalk.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +159,13 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 76B3FD3B2CA54E780003F7FD;
+			packageReferences = (
+				7610CBE52CB9363900BEA6ED /* XCRemoteSwiftPackageReference "ChartView" */,
+				7610CBE82CB963FA00BEA6ED /* XCRemoteSwiftPackageReference "BarChart" */,
+			);
 			productRefGroup = 76B3FD452CA54E780003F7FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +181,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B3FD4F2CA54E790003F7FD /* Preview Assets.xcassets in Resources */,
+				762654562CC35B0B00CE0B94 /* InfoPlist.xcstrings in Resources */,
+				7608F6C72CC5E6010002DC5E /* Launch Screen.storyboard in Resources */,
 				76B3FD4C2CA54E790003F7FD /* Assets.xcassets in Resources */,
+				76D7089F2CEC1E8C00CDF7C0 /* success.mp3 in Resources */,
+				762654542CC35A9100CE0B94 /* Localizable.xcstrings in Resources */,
+				76D708A12CEC1E9000CDF7C0 /* meow.mp3 in Resources */,
+				7610CBF12CBE4D4500BEA6ED /* propertyList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7610CBEE2CBE494400BEA6ED /* storeKitManager.swift in Sources */,
 				76B3FD4A2CA54E780003F7FD /* ContentView.swift in Sources */,
+				7610CBE32CB8C9E700BEA6ED /* DataAccessView.swift in Sources */,
+				7610CBEC2CBE490000BEA6ED /* ProSwiftUIView.swift in Sources */,
+				7608F6C32CC3D86F0002DC5E /* AboutUIView.swift in Sources */,
+				76B3FD5A2CA64B860003F7FD /* TujianView.swift in Sources */,
+				7610CBF72CC0C9EF00BEA6ED /* notificationView.swift in Sources */,
+				7610CBE02CB8BCDA00BEA6ED /* DataView.swift in Sources */,
+				7610CBF52CC0A16300BEA6ED /* OnboardingPageView.swift in Sources */,
 				76B3FD482CA54E780003F7FD /* CatWalkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -269,24 +338,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CatWalk/CatWalk.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"CatWalk/Preview Content\"";
 				DEVELOPMENT_TEAM = F7TRH9293R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatWalk/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your Health data to track your walking progress and allow you to exchange steps for virtual pets.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to your Health data to track your walking progress and allow you to exchange steps for virtual pets.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = siantgirl.com.CatWalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,24 +376,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CatWalk/CatWalk.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"CatWalk/Preview Content\"";
 				DEVELOPMENT_TEAM = F7TRH9293R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatWalk/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your Health data to track your walking progress and allow you to exchange steps for virtual pets.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to your Health data to track your walking progress and allow you to exchange steps for virtual pets.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = siantgirl.com.CatWalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +431,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7610CBE52CB9363900BEA6ED /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+		7610CBE82CB963FA00BEA6ED /* XCRemoteSwiftPackageReference "BarChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dawigr/BarChart.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 76B3FD3C2CA54E780003F7FD /* Project object */;
 }

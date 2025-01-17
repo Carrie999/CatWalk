@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "barchart",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dawigr/BarChart.git",
+      "state" : {
+        "revision" : "9de87b161763ff44f589ed4822773c174384a9a2",
+        "version" : "1.3.2"
+      }
+    },
+    {
+      "identity" : "chartview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppPear/ChartView",
+      "state" : {
+        "revision" : "9115a992c91fa19cbb4f2241084240d38654a1fc",
+        "version" : "1.5.5"
+      }
+    }
+  ],
+  "version" : 2
+}
